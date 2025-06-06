@@ -1,15 +1,20 @@
 FeedWall 🚧 (In Progress)
 
+
 🌟 Overview
 FeedWall is an ongoing project that enables users to embed customizable feedback widgets into their websites to collect and analyze user feedback efficiently. The platform will support AI-powered insights to summarize feedback and help showcase selected reviews with embed codes.
 
+
 🚀 Planned Features (In Development)
+
+
 📝 Feedback Widgets
  Embed widgets into any site.
 
  Add theme customization and responsive UI.
 
  Real-time feedback collection via forms.
+ 
 
 🔍 Feedback Management
  View and filter feedback.
@@ -17,6 +22,7 @@ FeedWall is an ongoing project that enables users to embed customizable feedback
  Export feedback as CSV.
 
  Add user-level dashboards and stats.
+ 
 
 🤖 AI-Powered Insights
  Integrate Gemini API for summarizing feedback.
@@ -24,11 +30,13 @@ FeedWall is an ongoing project that enables users to embed customizable feedback
  Highlight pros and cons using AI.
 
  Create dynamic summary reports per widget.
+ 
 
 🔐 Authentication
  NextAuth-based secure login/signup.
 
  Role-based access control (Admin/User).
+ 
 
 💻 Tech Stack
 Category	Technology
@@ -61,7 +69,7 @@ Deployment	Vercel (Planned)
    git push origin <your-branch-name>
    ```
 6. Open a pull request.
-📌 Current Status
+
+ 📌 Current Status
 🧪 The project is actively being built and tested. Some features are functional, while others are under development. Feedback and contributions are welcome!
 
-Let me know if you also want a short version for your resume or a project explanation paragraph for interviews.
