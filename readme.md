@@ -1,82 +1,44 @@
+FeedWall 🚧 (In Progress)
+🌟 Overview
+FeedWall is an ongoing project that enables users to embed customizable feedback widgets into their websites to collect and analyze user feedback efficiently. The platform will support AI-powered insights to summarize feedback and help showcase selected reviews with embed codes.
 
-# FeedWall
+🚀 Planned Features (In Development)
+📝 Feedback Widgets
+ Embed widgets into any site.
 
+ Add theme customization and responsive UI.
 
-![image](https://github.com/user-attachments/assets/eaa0dbc7-c2ac-4236-ae0d-2f9cf7d65e30)
+ Real-time feedback collection via forms.
 
+🔍 Feedback Management
+ View and filter feedback.
 
-![Stars](https://img.shields.io/github/stars/PankajKumardev/feedwall?style=social) ![Forks](https://img.shields.io/github/forks/Manan024/feedwall?style=social) ![Issues](https://img.shields.io/github/issues/PankajKumardev/feedwall)
+ Export feedback as CSV.
 
-## 🌟 Overview
+ Add user-level dashboards and stats.
 
-FeedWall allows users to embed a feedback widget into their projects and receive feedback directly from their site visitors. The feedback is stored in a central database, and users can view, sort, and analyze feedback easily. With AI-powered insights, users can get a summarized view of the pros and cons of their feedback, and even select specific feedback to showcase with an embed code.
+🤖 AI-Powered Insights
+ Integrate Gemini API for summarizing feedback.
 
----
+ Highlight pros and cons using AI.
 
-## 🚀 Features
+ Create dynamic summary reports per widget.
 
-### 📝 Feedback Widgets
+🔐 Authentication
+ NextAuth-based secure login/signup.
 
-- Embed customizable feedback widgets into any project.
-- Collect and display feedback from visitors directly on your website.
+ Role-based access control (Admin/User).
 
-### 🔍 Feedback Management
+💻 Tech Stack
+Category	Technology
+Frontend	Next.js, TailwindCSS
+Backend	Next.js API, Prisma, PostgreSQL
+AI Integration	Gemini API
+Tools	TypeScript, Zod, Docker
+Auth	NextAuth
+Deployment	Vercel (Planned)
 
-- View, sort, and filter feedback by name, date, and rating.
-- Download feedback in CSV format for offline analysis.
-
-### 🤖 AI-Powered Insights
-
-- Get AI-generated summaries of feedback, highlighting pros and cons.
-- Select specific feedback (1-6 entries) to showcase with an embed code.
-
-### 🌐 Deployment
-
-- Hosted on **Vercel**.
-
----
-
-## 💻 Tech Stack
-
-| **Category**   | **Technology**                      |
-| -------------- | ----------------------------------- |
-| Frontend       | Next.js, TailwindCSS                |
-| Backend        | Next.js API, Prisma, PostgreSQL     |     
-| AI Integration | Gemini API                          |
-| Tools          | TypeScript, Zod, Docker             |
-| Authentication | NextAuth                            |
-| Deployment     | Vercel                              |
-
----
-
-## 📥 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Manan024/feedwall.git
-   cd feedwall
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Set up environment variables:
-   - Copy `.env.example` to `.env`.
-   - Add required keys.
-4. **Initialize the database:**
-   ```bash
-   npx prisma generate
-   npx prisma migrate dev
-   ```
-5. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
----
-
-## 🤝 Contribution Guidelines
-
+🛠️ Installation & Setup
 ### 🌱 How to Get Involved
 
 1. **Fork the repository** by clicking the "Fork" button.
@@ -98,26 +60,7 @@ FeedWall allows users to embed a feedback widget into their projects and receive
    git push origin <your-branch-name>
    ```
 6. Open a pull request.
+📌 Current Status
+🧪 The project is actively being built and tested. Some features are functional, while others are under development. Feedback and contributions are welcome!
 
-### 📌 Suggested Contributions
-
-- Enhance widget customization features.
-- Add more AI-driven feedback analysis options.
-- Improve feedback sorting and filtering mechanisms.
-
----
-
-
-
----
-
-
----
-
-
-
----
-
-
-
-
+Let me know if you also want a short version for your resume or a project explanation paragraph for interviews.
